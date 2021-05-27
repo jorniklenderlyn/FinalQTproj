@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="le2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>941</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px  solid black;
+border-radius: 10;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_open">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>441</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:disabled {
+background-color:#f5f5f5;
+color:rgb(217, 217, 217);
+border: 2px  solid rgb(217, 217, 217);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Открыть список</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_creat">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>130</y>
+     <width>441</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:disabled {
+background-color:#f5f5f5;
+color:rgb(217, 217, 217);
+border: 2px  solid rgb(217, 217, 217);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Создать новый список</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb4">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>130</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+</string>
+   </property>
+   <property name="text">
+    <string>?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_toStart">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>70</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb6_2">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>42</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: 2px solid #e7aa2f;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #ffce3a, stop: 1 #f5b432);
+    min-width: 38px;
+color: white
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f5b432, stop: 1 #ffce3a);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+
+
+QPushButton::menu-indicator {
+    image: url(menu_indicator.png);
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+}
+
+QPushButton::menu-indicator:pressed, QPushButton::menu-indicator:open {
+    position: relative;
+    top: 2px; left: 2px; /* shift the arrow by 2 px */
+}
+QPushButton:hover {
+border: 2px  solid #dc9300;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>45</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: ;
+border-radius: 0;
+color: 
+}</string>
+   </property>
+   <property name="text">
+    <string>Введите название списка для создания.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_HaveModul">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>45</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: ;
+border-radius: 0;
+color: #ff6060
+}</string>
+   </property>
+   <property name="text">
+    <string>Папка уже существует</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_del_to_table">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>380</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_add_to_table">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>250</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_safe_to_table">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>510</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #e2e2e2;
+border: 2px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+QPushButton:hover {
+background-color: #f5f5f5;
+}
+QPushButton:pressed {
+background-color: #8f8f8f;
+border: 3px  solid #8f8f8f;
+border-radius: 0;
+color: #595959
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>981</width>
+     <height>5</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #dddddd;
+border: 2px  solid #dddddd;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_to_folders">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>42</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: 2px solid #e7aa2f;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #ffce3a, stop: 1 #f5b432);
+    min-width: 38px;
+color: white
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f5b432, stop: 1 #ffce3a);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+
+
+QPushButton::menu-indicator {
+    image: url(menu_indicator.png);
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+}
+
+QPushButton::menu-indicator:pressed, QPushButton::menu-indicator:open {
+    position: relative;
+    top: 2px; left: 2px; /* shift the arrow by 2 px */
+}
+QPushButton:hover {
+border: 2px  solid #dc9300;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-6</x>
+     <y>202</y>
+     <width>991</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #e8e8e8;
+border: px 0 solid #e8e8e8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>pushButton_3</zorder>
+  <zorder>le2</zorder>
+  <zorder>pb_open</zorder>
+  <zorder>pb_creat</zorder>
+  <zorder>pb4</zorder>
+  <zorder>pb_toStart</zorder>
+  <zorder>pb6_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pb_HaveModul</zorder>
+  <zorder>pb_del_to_table</zorder>
+  <zorder>pb_add_to_table</zorder>
+  <zorder>pb_safe_to_table</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>pb_to_folders</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
